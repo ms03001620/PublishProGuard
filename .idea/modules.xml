@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PublishProGuard.iml" filepath="$PROJECT_DIR$/PublishProGuard.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testproguardmodule/testproguardmodule.iml" filepath="$PROJECT_DIR$/testproguardmodule/testproguardmodule.iml" />
     </modules>
   </component>
 </project>

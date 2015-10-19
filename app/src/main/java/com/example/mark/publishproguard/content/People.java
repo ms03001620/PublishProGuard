@@ -81,7 +81,7 @@ public class People implements Parcelable{
 
     @Override
     public String toString() {
-        return "People{" +
+        return this.getClass().getName() +
                 "name='" + name + '\'' +
                 ", isDead=" + isDead +
                 ", age=" + age +

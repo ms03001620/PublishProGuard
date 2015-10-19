@@ -9,6 +9,7 @@ import com.example.mark.publishproguard.content.People;
 public class DetailActivity extends AppCompatActivity {
 
     TextView mText;
+    TextView mTextGson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,10 +17,14 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
 
         mText =(TextView) findViewById(R.id.text_detail);
+        mTextGson =(TextView) findViewById(R.id.text_gson);
+
 
         People p = getIntent().getParcelableExtra("data-people");
 
         mText.setText(p.toString()+p.getClass().getName());
+
+        mTextGson.setText(getIntent().getStringExtra("data-json"));
 
     }
 }
